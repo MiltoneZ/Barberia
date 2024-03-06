@@ -1,0 +1,228 @@
+header{
+    background-color: #d6d1d1;
+}
+
+.caja{
+    position: relative;
+    width: 80rem;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 7em;
+    right: 0rem;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 1rem;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #cfa635;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 60rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 1.5rem 0.5rem;
+    box-sizing: border-box;
+    border: 0.3rem solid black;
+    border-radius: 1rem;
+}
+
+.productos li:hover{
+    border-color: #cfa635;
+}
+
+.productos li:active{
+    border-color: #6d3e28;
+}
+
+.productos li:hover h2{
+    font-size: 2.5rem;
+}
+
+.productos h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 1rem;
+    
+}
+
+.producto-precio{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+footer{
+    text-align: center;
+    background-image: url(../img/bg.jpg);
+    padding: 1rem;
+}
+
+.copyright{
+    font-size: 1rem;
+    color: white;
+}
+
+main{
+    width: 60rem;
+    margin: 0 auto;
+}
+
+form{
+    margin: 2rem 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 1rem;
+    padding: 0.3rem 2rem;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 1rem;
+}
+
+.enviar{
+    width: 30%;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    color: white;
+    background: #6d3e28;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #ad6341;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 2rem 0;
+}
+
+thead{
+    background:  #ce8f7159;
+    font-weight: bold;
+}
+
+td,th{
+    border: 0.1rem solid black;
+    padding: 0.2rem 0.5rem;
+}
+
+/* CCS para nuestra home*/
+
+.banner{
+    width: 100%;
+    margin: 0 1rem 1rem 0;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1rem;
+    clear: left;
+}
+
+.principal{
+    padding: 2rem 0;
+    background: #fefefe;
+}
+
+.principal p{
+    margin: 0 0 1rem;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 10rem;
+    float: left;
+    margin: 0 2rem 2rem 0;
+}
+
+.mapa{
+    padding: 3rem 0;
+}
+
+.mapa p{
+    margin: 0 0 2rem;
+    text-align: center;
+}
+.contenido-diferenciales{
+    width: 100%;
+}
+
+.lista-diferenciales{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 60%;
+    box-shadow: 0 0 10px 0.7rem #000000;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 10;
+}
+
+.video{
+    width: 100%;
+    margin: 2rem 4%;
+}
